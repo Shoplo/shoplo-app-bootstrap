@@ -9,13 +9,13 @@
 	text-transform: none;
 	line-height: 1;
 	/* Not compatible with Shoplo panel */
-/*
+
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-*/
-    &.icon-refresh{
-	    font-family: 'shoplo2' !important;
-    }
+
+     &.icon-refresh{
+	     font-family: 'shoplo2' !important;
+     }
 }
 .btn{
 	.glyphicon{
@@ -143,5 +143,5 @@
 }
 .icon-refresh:before{
 	content: 'r';
-	text-transform: uppercase;
+  	text-transform: uppercase;
 }

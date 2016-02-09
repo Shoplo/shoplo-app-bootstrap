@@ -69,3 +69,28 @@
 		line-height: 23px;
 	}
 }
+.inline-form {
+	display: inline-block;
+}
+ @media (min-width: 768px) {
+	.app-form-center {
+		max-width: 600px;
+		float: none;
+		margin: 0 auto;
+	}
+}
+.app-form-center {
+	.checkbox label:before {
+		margin-right: 5px;
+	}
+	.checkbox label {
+		margin-right: 10px;
+	}
+}
+.badge {
+	width: auto;
+	border: 1px solid #dde0e8;
+	background: #eee;
+	line-height: 31px;
+	padding: 0 5px;
+}

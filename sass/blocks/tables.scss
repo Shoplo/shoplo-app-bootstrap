@@ -20,7 +20,7 @@
 		font-weight: 400;
 		line-height: 20px;
 		text-overflow: ellipsis;
-		white-space: nowrap;
+		// white-space: nowrap;
 		width: auto;
 		@include font-size(14);
 		strong{
@@ -31,6 +31,38 @@
 			span{
 				padding-left: 6px;
 				font-weight: 400;
+			}
+		}
+	}
+	> thead {
+		tr {
+			th {
+				a {
+					&:after {
+						content: '';
+					    display: inline-block;
+					    width: 0;
+					    height: 0;
+					    margin-left: 5px;
+					    position: relative;
+						vertical-align: middle;
+						top: -1px;
+					}
+					&.asc {
+						&:after {
+							border-bottom: 4px dashed;
+						    border-right: 4px solid transparent;
+						    border-left: 4px solid transparent;
+						}
+					}
+					&.desc {
+						&:after {
+						    border-top: 4px dashed;
+						    border-right: 4px solid transparent;
+						    border-left: 4px solid transparent;
+						}
+					}
+				}
 			}
 		}
 	}

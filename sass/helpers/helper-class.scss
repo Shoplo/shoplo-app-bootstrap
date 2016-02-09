@@ -41,3 +41,30 @@
 .clearfix{
 	@include clearfix();
 }
+.rwd-img img {
+	max-width: 100%;
+}
+.full-width {
+	width: 100%;
+}
+.full-width input, .full-width select, .full-width .selectricWrapper {
+	max-width: 100%;
+	width: 100%;
+}
+.input-date {
+	position: relative;
+}
+.input-date .icon-callendar {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+hr {
+	width: 100%;
+	height: 1px;
+	background: #ddd;
+	border: 0;
+}
+.center-box {
+	margin: 0 auto;
+}

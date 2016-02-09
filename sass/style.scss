@@ -23,6 +23,7 @@
 @import 'blocks/list';
 @import 'blocks/navigation';
 @import 'blocks/autocompleter';
+@import 'blocks/loader';
 
 //elements
 @import 'elements/table-look';
@@ -32,15 +33,19 @@
 @import 'elements/select';
 @import 'elements/alerts';
 @import 'elements/buttons';
+@import 'elements/tooltip';
 
 //helper Classes
 @import 'helpers/helper-class';
 @import 'helpers/margins';
 @import 'helpers/paddings'; //mostly for table cells purpose
+@import 'helpers/width'; 
 
 //vendor
 @import 'vendor/remodal';
 @import 'vendor/colorpicker';
+@import 'vendor/selectric';
+@import 'vendor/datepicker';
 
 //apps
 @import 'apps/instockreminder/buttons.scss';

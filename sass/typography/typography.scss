@@ -57,7 +57,7 @@ p{
 	font-weight: 700;
 	font-size:$font-size-small;
 	margin-bottom: 25px;
-};
+}
 .app-table-look{
 	h2{
 		font-size:$font-size-large;
@@ -74,8 +74,8 @@ p{
 .color-light{
 	color: $light;
 }
-a, a:hover {
-	color: #333; 
+a {
+	color: #333;
 }
 a.glyphicon {
 	opacity: .3;
